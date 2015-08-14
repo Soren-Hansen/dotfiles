@@ -45,7 +45,7 @@ call matchadd('ColorColumn', '\%81v', 100)
 set hlsearch
 
 " colours
-" let g:solarized_termcolors=256
+"let g:solarized_termcolors=256
 syntax enable
 set background=dark
 colorscheme solarized
