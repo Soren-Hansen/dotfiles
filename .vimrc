@@ -1,16 +1,17 @@
 " Vundle
 set nocompatible
 filetype off
-set rtp+=~/.vim/bundle/vundle
-call vundle#rc()
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
 
-Bundle 'gmarik/vundle'
-Bundle 'scrooloose/nerdtree'
-Bundle 'altercation/vim-colors-solarized'
+Plugin 'VundleVim/Vundle.vim'
+Plugin 'scrooloose/nerdtree'
+Plugin 'altercation/vim-colors-solarized'
 "Bundle 'ervandew/supertab'      " smart tab-completion using <tab>
 "Bundle 'tpope/vim-fugitive'     " git ntegration
 "Bundle 'kien/ctrlp.vim'         " fuzzy file search
 "Bundle 'godlygeek/tabular'      " align according to a regex
+call vundle#end()
 
 " line Numbers
 set number
@@ -26,12 +27,13 @@ set smarttab
 
 " the number of spaces a tab consists of
 set shiftwidth=4
-
 " make spaces that represents tabs act like tabs when deleting etc.
 set softtabstop=4
+set tabstop=4
 
 " encoding
 set encoding=utf-8
+"set encoding=latin-1
 set fileencodings=utf-8,latin-1,chinese
 
 " display commands in the bottom left corner as they are typed

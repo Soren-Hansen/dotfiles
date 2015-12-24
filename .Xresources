@@ -71,3 +71,5 @@
 
 !! -- URxvt --
 URxvt*scrollBar: false
+URxvt*perl-ext: selection-to-clipboard
+!URxvt*perl-ext-common: selection-to-clipboard

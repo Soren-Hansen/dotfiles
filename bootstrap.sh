@@ -24,7 +24,7 @@ if [ ! -e "~/.vim" ]; then
 fi
 
 if [ ! -d "$DOTFILES_DIR/.vim/bundle/vundle" ]; then
-    git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/vundle
+    git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 else
     git -C ~/.vim/bundle/vundle pull
 fi
