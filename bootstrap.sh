@@ -32,6 +32,7 @@ fi
 vim +PluginInstall +qall
 
 # bash setup
+ln -sv"$force" "$DOTFILES_DIR/.bashrc" ~
 
 # git setup
 
@@ -53,3 +54,8 @@ fi
 #https://robots.thoughtbot.com/tmux-copy-paste-on-os-x-a-better-future
 
 
+# Macbook specific setup
+ln -sv"$force" "$DOTFILES_DIR/mac/.xbindkeysrc" ~
+ln -sv"$force" "$DOTFILES_DIR/mac/backlight" /usr/bin/
+ln -sv"$force" "$DOTFILES_DIR/mac/brightness" /usr/bin/
+sudo ln -sv"$force" "$DOTFILES_DIR/mac/99-light.rules" /etc/udev/rules.d/

@@ -1,0 +1,12 @@
+"brightness up"
+    m:0x0 + c:233
+
+"brightness down"
+    m:0x0 + c:232
+
+"backlight on"
+    m:0x0 + c:238
+
+"backlight off"
+    m:0x0 + c:237
+

@@ -1,0 +1,8 @@
+#!/bin/sh
+
+if [ "$1" = "on" ]; then
+    echo 255 > /sys/class/leds/smc\:\:kbd_backlight/brightness
+
+elif [ "$1" = "off" ]; then
+    echo 0 > /sys/class/leds/smc\:\:kbd_backlight/brightness
+fi

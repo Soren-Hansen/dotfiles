@@ -1,0 +1,1 @@
+SUBSYSTEM=="leds*", PROGRAM="/bin/sh -c 'chmod o+w /sys/class/backlight/acpi_video0/brightness; chmod o+w /sys/class/leds/smc\:\:kbd_backlight/brightness'"
